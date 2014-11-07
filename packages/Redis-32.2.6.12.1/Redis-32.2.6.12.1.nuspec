@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Redis-32</id>
+    <version>2.6.12.1</version>
+    <authors>Microsoft Open Technologies,  Inc.</authors>
+    <owners>Microsoft Open Technologies,  Inc.</owners>
+    <licenseUrl>https://github.com/MSOpenTech/redis/blob/2.6/license.txt</licenseUrl>
+    <projectUrl>https://github.com/MSOpenTech/redis</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Redis is an in-memory database that persists on disk. This package contains the Windows 32bit binaries for Redis.</description>
+    <releaseNotes>The current version is based on Redis 2.6.12, and supports background saving to disk.</releaseNotes>
+    <copyright>Copyright (c) Microsoft Open Technologies, Inc.</copyright>
+    <tags>Redis in-memory database key-value</tags>
+  </metadata>
+</package>

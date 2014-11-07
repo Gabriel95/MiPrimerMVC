@@ -1,0 +1,20 @@
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\Domain\bin\Debug\Domain.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\Domain\bin\Debug\Domain.pdb
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\Domain\obj\Debug\Domain.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\Domain\obj\Debug\Domain.pdb
+E:\miprimermvc-master\Domain\bin\Debug\Domain.dll
+E:\miprimermvc-master\Domain\bin\Debug\Domain.pdb
+E:\miprimermvc-master\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+E:\miprimermvc-master\Domain\obj\Debug\Domain.dll
+E:\miprimermvc-master\Domain\obj\Debug\Domain.pdb
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\Domain\bin\Debug\Domain.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\Domain\bin\Debug\Domain.pdb
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\Domain\obj\Debug\Domain.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\Domain\obj\Debug\Domain.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc3\Domain\bin\Debug\Domain.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\Domain\bin\Debug\Domain.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc3\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Jesus Paz\Desktop\miprimermvc3\Domain\obj\Debug\Domain.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\Domain\obj\Debug\Domain.pdb

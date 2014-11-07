@@ -1,0 +1,14 @@
+﻿@using Domain.Entities
+@model Domain.Entities.User
+@{
+    ViewBag.Title = "UserProfile";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<h2>Welcome @Model.Name</h2>
+
+<p>Email: @Model.Email</p>
+
+<p>Telephone: @Model.Telephone</p>
+
+<p>Info: @Model.Info</p>

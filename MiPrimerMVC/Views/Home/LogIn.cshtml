@@ -1,0 +1,63 @@
+﻿@using MiPrimerMVC.Models
+@model MiPrimerMVC.Models.ToLogInModel
+@{
+    ViewBag.Title = "LogIn";
+}
+<div class="container">
+    <div class="row">
+        <div align="center">
+            @using (Html.BeginForm("LogIn", "Home", null, FormMethod.Post, new { @class = "form-signin mg-btm" }))
+            {
+                <h3 class="heading-desc">
+                    Login to Classifieds
+                </h3>
+
+                <div class="social-box">
+                    <div class="row mg-btm">
+                        <div class="col-md-12">
+                            <a href="#" class="btn btn-primary btn-block">
+                                <i class="icon-facebook"></i>    Login with Facebook
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#" class="btn btn-info btn-block">
+                                <i class="icon-twitter"></i>    Login with Twitter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main">
+                    @Html.TextBoxFor(x => x.Email, new { @class = "form-control", type = "Email", placeholder = "Email Adress", @required = "required" })
+                    @Html.TextBoxFor(x => x.Password, new { @class = "form-control", type = "password", placeholder = "Password", @required = "required" })
+                    <span class="clearfix"></span>
+                </div>
+                <div class="login-footer">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6">
+                            <div class="left-section">
+                                <a href="">Forgot your password?</a>
+                                <a href="">@Html.ActionLink("Sign Up Now", "Register", "Home")</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-6 pull-right">
+                            <button type="submit" class="btn btn-large btn-danger pull-right">Login</button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            }
+        </div>
+        @{
+            if (null != ViewBag.Message)
+            {
+                <script type="text/javascript">
+                             alert("@ViewBag.Message");
+                </script>
+            }
+        }
+    </div>
+</div>

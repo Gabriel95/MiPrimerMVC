@@ -1,0 +1,118 @@
+﻿@using Domain.Entities
+@model Domain.Entities.Items
+@{
+    ViewBag.Title = "AddItems";
+    Layout = "~/Views/Shared/UserLayout.cshtml";    
+}
+
+<h2>Add a New Item</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+         @using (Html.BeginForm("AddItems", "Home", null, FormMethod.Post, new { @class = "form-horizontal" })) { 
+                    <fieldset>
+                        <legend class="text-center">Add New Item</legend>
+
+                        <!-- Name input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Title</label>
+                            <div class="col-md-9">
+                                @Html.TextBoxFor(x => x.Title, new { @class = "form-control", placeholder = "Title", required = "required" })
+                            </div>
+                        </div>
+
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Price</label>
+                            <div class="col-md-9">
+                            @Html.TextBoxFor(x => x.Price, new { @class = "form-control", placeholder = "Price", required = "required" })                            </div>
+                        </div>
+                        
+                        @{
+                             List<SelectListItem> dropdownCategory = new List<SelectListItem>();
+                               dropdownCategory.AddRange(new[]{
+                                  new SelectListItem() { Text = "Music" },
+                                  new SelectListItem() { Text = "House Hold" },
+                                  new SelectListItem() { Text = "Service" },
+                                  new SelectListItem() { Text = "Vehicles" },
+                                  new SelectListItem() { Text = "Others" }});
+                                  
+                                 ViewData.Add("DropDownCategory", dropdownCategory);
+                        }
+                        
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Category</label>
+                            <div class="col-md-9">
+                                @Html.DropDownListFor(x => x.Category, ViewData["DropDownCategory"] as List<SelectListItem>)
+                            </div>
+                        </div>
+                        
+                        @{
+                                 List<SelectListItem> dropdownBusiness = new List<SelectListItem>();
+                                 dropdownBusiness.AddRange(new[]{
+                                  new SelectListItem() { Text = "For Sale" },
+                                  new SelectListItem() { Text = "For Auction" },
+                                  new SelectListItem() { Text = "For Trading" },
+                                  new SelectListItem() { Text = "For Renting" },
+                                 });
+
+                                 ViewData.Add("DropDownBusiness", dropdownBusiness);
+                        }
+
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Business</label>
+                            <div class="col-md-9">
+                                @Html.DropDownListFor(x => x.BusinessType, ViewData["DropDownBusiness"] as List<SelectListItem>)
+                            </div>
+                        </div>
+                        
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Image URL</label>
+                            <div class="col-md-9">
+                                @Html.TextBoxFor(x => x.ImagesUrl, new { @class = "form-control", placeholder = "Image URL"})
+                            </div>
+                        </div>
+                        
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Video URL</label>
+                            <div class="col-md-9">
+                                @Html.TextBoxFor(x => x.VideoUrl, new { @class = "form-control", placeholder = "Video URL"})
+                            </div>
+                        </div>
+
+                        <!-- Message body -->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="message">Description</label>
+                            <div class="col-md-9">
+                                @Html.TextAreaFor(x => x.Description, new { @class = "form-control", placeholder = "Enter A Description", required = "required", rows = "5" })
+                            </div>
+                        </div>
+
+                        <!-- Form actions -->
+                        <div class="form-group">
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+               }
+                
+                @{
+                    if (null != ViewBag.Message)
+                    {
+                        <script type="text/javascript">
+                             alert("@ViewBag.Message");
+                        </script>
+                    }
+                }
+                
+            </div>
+        </div>
+    </div>
+</div>

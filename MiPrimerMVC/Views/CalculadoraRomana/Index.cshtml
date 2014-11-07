@@ -1,0 +1,57 @@
+﻿@using Domain.Entities
+@using MiPrimerMVC.Controllers
+@using MiPrimerMVC.Models
+@model MiPrimerMVC.Models.Calculadora
+
+@{
+    ViewBag.Title = "Calculadora Romana";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Calculadora Romana</h2>
+
+@using (Html.BeginForm("Index","CalculadoraRomana",null,FormMethod.Post,new {@class="form-horizontal"})) {
+
+    @Html.LabelFor(x=>x.Entrada)
+    @Html.TextBoxFor(x=>x.Entrada,new {@class="form-control"})
+    <button class="btn btn-default" type="submit">Calcular</button>
+}
+<div class="row">
+    <p>
+        @Html.LabelFor(x => x.Salida)
+        @Html.ValueFor(x => x.Salida)
+    </p>    
+</div>
+<div class="row">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>    
+                <th>Numero 1</th>
+                <th>Operador</th>
+                <th>Numero 2</th>
+                <th>Resultado</th>
+                <td>Acciones</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Operaciones operacion in Model.Operaciones)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink(@operacion.Id.ToString(),"Detalle",new {@id = @operacion.Id},null)
+                    </td>
+                    <td>@operacion.Numero1</td>
+                    <td>@operacion.Operador</td>
+                    <td>@operacion.Numero2</td>
+                    <td>@operacion.Resultado</td>
+                    <td>
+                        <button type="button">Eliminar</button>
+                        <button type="button">Editar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

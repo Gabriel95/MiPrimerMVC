@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "MPLayout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2">
+                <nav class="nav-sidebar">
+                    <ul class="nav">
+                        <li class="active"><a>Filters</a></li>
+                        <li>@Html.ActionLink("All Items", "MainPage", "Home")</li>
+                        <li>@Html.ActionLink("By Category", "ByCategory", "Home", new { @id = 1 }, null)</li>
+                        <li>@Html.ActionLink("Advanced Search", "AdvancedSearch", "Home")</li>
+                        <li>@Html.ActionLink("Most Viewed", "MostViewed", "Home")</li>
+                        <li>@Html.ActionLink("Most Recent", "MostRecent", "Home")</li>
+                        <li>@Html.ActionLink("Suggestion", "Suggested", "Home")</li>
+                        <li class="nav-divider"></li>
+                    </ul>
+                </nav>      
+            </div>
+        <div class="col-lg-10">
+            @RenderBody()
+        </div>
+    </div>
+</div>

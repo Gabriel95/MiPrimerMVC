@@ -1,0 +1,94 @@
+﻿@using MiPrimerMVC
+@using Domain.Entities
+@using NHibernate.Util
+@model MiPrimerMVC.Models.UserandItemsModel
+@{
+    ViewBag.Title = "AdvancedSearch";
+    Layout = "~/Views/Shared/MPLayout.cshtml";
+}
+
+<h2>Advanced Search</h2>
+<div class="container">
+        <div class="col-xs-8 col-xs-offset-2">
+
+                    @using (Html.BeginForm("AdvancedSearch", "Home", null, FormMethod.Post, new {@class = "form-horizontal"}))
+                    {
+                        
+                               
+                                    List<SelectListItem> dropdownCategory = new List<SelectListItem>();
+                                    dropdownCategory.AddRange(new[]
+                                    {
+                                        new SelectListItem() {Text = "Music"},
+                                        new SelectListItem() {Text = "House Hold"},
+                                        new SelectListItem() {Text = "Service"},
+                                        new SelectListItem() {Text = "Vehicles"},
+                                        new SelectListItem() {Text = "Others"}
+                                    });
+
+                                    ViewData.Add("DropDownCategory", dropdownCategory);
+                        
+                        <table class="table table-hover">
+                          <tbody>
+                              <tr>
+                                  <td>
+                                      @Html.DropDownListFor(x => x.Asearch.Category, ViewData["DropDownCategory"] as List<SelectListItem>)
+                                  </td>
+                                  <td>
+                                      @Html.TextBoxFor(x => x.Asearch.Title, new { @class = "form-control", placeholder = "Title" })
+                                  </td>
+                                  <td>
+                                      @Html.TextBoxFor(x => x.Asearch.Description, new { @class = "form-control", placeholder = "Description" })
+                                  </td>
+                                  <td>
+                                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+
+                                  </td>
+                              </tr>
+                         </tbody>
+                            </table>                
+                    }   
+        </div>
+</div>
+
+<hr>
+@if (@Model.Itemses.Count > 0)
+{
+    foreach (Items ite in Model.Itemses)
+    {
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+        <div class="container">
+            <div class="well">
+                <div class="media">
+                    <a class="pull-left">
+                        @if (@ite.ImagesUrl != null)
+                        {
+                            <img class="media-object" src="@ite.ImagesUrl" width="350" height="150">
+                        }
+                        else
+                        {
+                            <img class="media-object" src="http://intentionaldesign.ca/wp-content/themes/gonzo/images/no-image-blog-one.png" width="350" height="150">
+
+                        }
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">@Html.ActionLink(@ite.Title, "DetailedItem", "Home", new {@id = ite.Id}, null)</h4>
+                        <p>
+                            @ite.Description
+                        </p>
+                        <ul class="list-inline list-unstyled">
+                            <li>Price: @ite.Price </li>
+                            <li>|</li>
+                            <li>Category: @ite.Category</li>
+                            <li>|</li>
+                            <li>Business Type: @ite.BusinessType</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <h3>No items found to your criteria</h3>
+}

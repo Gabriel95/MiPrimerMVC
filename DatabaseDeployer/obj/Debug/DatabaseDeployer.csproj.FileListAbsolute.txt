@@ -1,0 +1,106 @@
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\obj\Debug\DatabaseDeployer.csprojResolveAssemblyReference.cache
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe.config
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\DatabaseDeployer.pdb
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.NHibernate.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\Data.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\Domain.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\DomainDrivenDatabaseDeployer.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\FizzWare.NBuilder.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\FluentNHibernate.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\Iesi.Collections.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\NHibernate.dll
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\Data.pdb
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\Domain.pdb
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\FluentNHibernate.xml
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\Iesi.Collections.xml
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\NHibernate.xml
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\obj\Debug\DatabaseDeployer.exe
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\obj\Debug\DatabaseDeployer.pdb
+C:\Users\Camilo Aguilar\Desktop\Clase-8-10-2014\MiPrimerMVC\DatabaseDeployer\bin\Debug\connectionStrings.config
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\connectionStrings.config
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe.config
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.NHibernate.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Data.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Domain.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DomainDrivenDatabaseDeployer.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\FizzWare.NBuilder.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\FluentNHibernate.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Iesi.Collections.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\NHibernate.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Data.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Domain.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\FluentNHibernate.xml
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Iesi.Collections.xml
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\NHibernate.xml
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.csprojResolveAssemblyReference.cache
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.exe
+C:\Users\Jesus Paz\Desktop\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.pdb
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\connectionStrings.config
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe.config
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.pdb
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.NHibernate.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\Data.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\Domain.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\DomainDrivenDatabaseDeployer.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\FizzWare.NBuilder.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\FluentNHibernate.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\Iesi.Collections.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\NHibernate.dll
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\Data.pdb
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\Domain.pdb
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\FluentNHibernate.xml
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\Iesi.Collections.xml
+E:\miprimermvc-master\DatabaseDeployer\bin\Debug\NHibernate.xml
+E:\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.csprojResolveAssemblyReference.cache
+E:\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.exe
+E:\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.pdb
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\connectionStrings.config
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe.config
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DatabaseDeployer.pdb
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.NHibernate.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Data.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Domain.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\DomainDrivenDatabaseDeployer.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\FizzWare.NBuilder.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\FluentNHibernate.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Iesi.Collections.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\NHibernate.dll
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Data.pdb
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Domain.pdb
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\FluentNHibernate.xml
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\Iesi.Collections.xml
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\bin\Debug\NHibernate.xml
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.csprojResolveAssemblyReference.cache
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.exe
+C:\Users\Claudia Mejia\Desktop\miprimermvc-master\DatabaseDeployer\obj\Debug\DatabaseDeployer.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\connectionStrings.config
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe.config
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\DatabaseDeployer.exe
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\DatabaseDeployer.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\AcklenAvenue.Data.NHibernate.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\Data.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\Domain.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\DomainDrivenDatabaseDeployer.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\FizzWare.NBuilder.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\FluentNHibernate.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\Iesi.Collections.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\NHibernate.dll
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\Data.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\Domain.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\FluentNHibernate.xml
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\Iesi.Collections.xml
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\NHibernate.xml
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\obj\Debug\DatabaseDeployer.csprojResolveAssemblyReference.cache
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\obj\Debug\DatabaseDeployer.exe
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\obj\Debug\DatabaseDeployer.pdb
+C:\Users\Jesus Paz\Desktop\miprimermvc3\DatabaseDeployer\bin\Debug\App.config

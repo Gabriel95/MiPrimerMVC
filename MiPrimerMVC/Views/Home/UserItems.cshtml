@@ -1,0 +1,44 @@
+﻿@using MiPrimerMVC
+@using Domain.Entities
+@model MiPrimerMVC.Models.UserandItemsModel
+@{
+    ViewBag.Title = "UserItems";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<h2>@Model.cUser.Name's Items</h2>
+@foreach (Items ite in Model.Itemses)
+{
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <div class="container">
+        <div class="well">
+            <div class="media">
+                <a class="pull-left">
+                    @if (@ite.ImagesUrl != null)
+                    {
+                        <img class="media-object" src="@ite.ImagesUrl" width="350" height="150">
+                    }
+                    else
+                    {
+                        <img class="media-object" src="http://intentionaldesign.ca/wp-content/themes/gonzo/images/no-image-blog-one.png" width="350" height="150">
+                    }
+                    
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">@ite.Title</h4>
+                    <p class="text-right">@Model.cUser.Name</p>
+                    <p>
+                        @ite.Description
+                    </p>
+                    <ul class="list-inline list-unstyled">
+                        <li>Price: @ite.Price </li>
+                        <li>|</li>
+                        <li>Category: @ite.Category</li>
+                        <li>|</li>
+                        <li>Business Type: @ite.BusinessType</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}

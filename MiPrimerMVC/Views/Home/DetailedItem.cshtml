@@ -1,0 +1,113 @@
+﻿@using CaptchaMvc.HtmlHelpers
+@using Domain.Entities
+@model MiPrimerMVC.Models.UserandItemsModel
+@{
+    ViewBag.Title = "DetailedItem";
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <h2>@Model.JustItem.Title's Detail</h2>
+        <hr>
+    </div><!--.row -->
+</div><!--./container -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h4>Info</h4>
+            <p>
+                Price: @Model.JustItem.Price
+            </p>
+            <p>
+                Business Type: @Model.JustItem.BusinessType
+            </p>
+            <p>
+                Category: @Model.JustItem.Category
+            </p>
+            <p>
+                Date Added: @Model.JustItem.Date
+            </p>
+            <p>
+                Description: @Model.JustItem.Description
+            </p>
+        @if (@Model.JustItem.ImagesUrl != null)
+        {
+            <img src="@Model.JustItem.ImagesUrl" class="img-responsive center-block" alt="tv">
+        }
+        else
+        {
+            <img src="http://intentionaldesign.ca/wp-content/themes/gonzo/images/no-image-blog-one.png" class="img-responsive center-block" alt="tv">
+        }
+        </div><!--.col -->
+    
+    @if (@Model.JustItem.VideoUrl != null)
+    { 
+        <div class="col-md-8">
+            <div class="vid">
+                <iframe width="640" height="390" src="@Model.JustItem.VideoUrl" frameborder="0" allowfullscreen></iframe>
+            </div><!--./vid -->
+        </div><!--.col -->
+      }
+    </div><!--./row -->
+
+</div><!--./container -->
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+
+
+
+                @using (Html.BeginForm("DetailedItem", "Home", null, FormMethod.Post, new { @class = "form-horizontal" }))
+                {
+                    <fieldset>
+                        <legend class="text-center">Contact Owner</legend>
+                        <!-- Name input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="name">Name</label>
+                            <div class="col-md-9">
+                                @Html.TextBoxFor(x => x.Mes.Name, new { @class = "form-control", placeholder = "Your name", required = "required" })
+                            </div>
+                        </div>
+
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                            <div class="col-md-9">
+                                @Html.TextBoxFor(x => x.Mes.Froms, new { @class = "form-control", placeholder = "Email", required = "required" })
+
+                            </div>
+                        </div>
+
+                        <!-- Message body -->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="message">Your message</label>
+                            <div class="col-md-9">
+                                @Html.TextAreaFor(x => x.Mes.Message, new { @class = "form-control", placeholder = "Your Message", required = "required" })
+                            </div>
+                        </div>
+                        <!-- Form actions -->
+                        <div class="form-group">
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    if (null != ViewBag.Message)
+    {
+        <script type="text/javascript">
+                             alert("@ViewBag.Message");
+        </script>
+    }
+}

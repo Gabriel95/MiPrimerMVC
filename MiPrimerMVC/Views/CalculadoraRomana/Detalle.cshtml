@@ -1,0 +1,20 @@
+﻿@model Domain.Entities.Operaciones
+
+@{
+    ViewBag.Title = "Detalle de Operacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalle de Operacion</h2>
+<div class="row">
+    @Html.LabelFor(x=>x.Id)
+    @Html.ValueFor(x=>x.Id)
+    @Html.LabelFor(x => x.Numero1)
+    @Html.ValueFor(x => x.Numero1)
+    @Html.LabelFor(x => x.Numero2)
+    @Html.ValueFor(x => x.Numero2)
+    @Html.LabelFor(x => x.Operador)
+    @Html.ValueFor(x => x.Operador)
+    @Html.LabelFor(x => x.Resultado)
+    @Html.ValueFor(x => x.Resultado)
+</div>

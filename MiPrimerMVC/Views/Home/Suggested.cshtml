@@ -1,0 +1,45 @@
+﻿@using Domain.Entities
+@using MiPrimerMVC
+@using Domain.Entities
+@model MiPrimerMVC.Models.UserandItemsModel
+@{
+    ViewBag.Title = "Suggested";
+    Layout = "~/Views/Shared/MPLayout.cshtml";
+}
+<h2>Suggested</h2>
+
+@foreach (Items ite in Model.Itemses)
+{
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <div class="container">
+        <div class="well">
+            <div class="media">
+                <a class="pull-left">
+                    @if (@ite.ImagesUrl != null)
+                    {
+                        <img class="media-object" src="@ite.ImagesUrl" width="350" height="150">
+                    }
+                    else
+                    {
+                        <img class="media-object" src="http://intentionaldesign.ca/wp-content/themes/gonzo/images/no-image-blog-one.png" width="350" height="150">
+
+                    }
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">@Html.ActionLink(@ite.Title, "DetailedItem", "Home", new { @id = ite.Id }, null)</h4>
+                    <p>
+                        @ite.Description
+                    </p>
+                    <ul class="list-inline list-unstyled">
+                        <li>Price: @ite.Price </li>
+                        <li>|</li>
+                        <li>Category: @ite.Category</li>
+                        <li>|</li>
+                        <li>Business Type: @ite.BusinessType</li>
+                        <li>Views: @ite.Views</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}

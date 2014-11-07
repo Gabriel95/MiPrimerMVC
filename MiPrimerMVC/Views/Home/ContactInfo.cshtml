@@ -1,0 +1,106 @@
+﻿@using BotDetect.Web.UI.Mvc
+@using Domain.Entities
+@using MiPrimerMVC.Models
+@using CaptchaMvc.HtmlHelpers
+@model MiPrimerMVC.Models.MessageModel
+@{
+    ViewBag.Title = "ContactInfo";
+}
+
+<h1>Clasifieds Inc.</h1>
+
+<h5><strong>Phone: </strong> +50495744687</h5>
+
+<h5><strong>Email: </strong> jgpaz5@gmail.com</h5>
+
+<h5><strong>Adress: </strong> 2 avenida, San Pedro Sula 21102, Honduras</h5>
+
+<hr>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBlTF8VSVrZdp-TvTkIISohfEZ_drHFMG8&sensor=false">
+</script>
+
+<script>
+    function initialize() {
+        var mapProp = {
+            center: new google.maps.LatLng(15.555851, -88.029904),
+            zoom: 18,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(15.555851, -88.029904),
+            map: map,
+            title: 'Hello World!'
+        });
+
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<div id="googleMap" style="width:500px;height:380px;"></div>
+<hr>
+
+<div align="center">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+                
+               
+
+                @using (Html.BeginForm("ContactInfo", "Home", null, FormMethod.Post, new {@class = "form-horizontal"}))
+                {
+                    <fieldset>
+                        <legend class="text-center">Contact Us</legend>
+                        <!-- Name input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="name">Name</label>
+                            <div class="col-md-9">
+                                @Html.TextBoxFor(x => x.Name, new { @class = "form-control", placeholder = "Your name", required = "required" })
+                            </div>
+                        </div>
+
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                            <div class="col-md-9">
+                                @Html.TextBoxFor(x => x.Froms, new { @class = "form-control", placeholder = "Email", required = "required" })
+
+                            </div>
+                        </div>
+
+                        <!-- Message body -->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="message">Your message</label>
+                            <div class="col-md-9">
+                                @Html.TextAreaFor(x => x.Message, new { @class = "form-control", placeholder = "Your Message", required = "required" })
+                            </div>
+                        </div>
+                        @{ var captcha = Html.Captcha("Refresh", "Input", 5, "Is required field.", false); }
+                         
+                        @captcha
+
+                        @Html.ValidationMessage(captcha.BuildInfo.InputElementId, new { @style = "width:50px" })
+                        <!-- Form actions -->
+                        <div class="form-group">
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+@{
+    if (null != ViewBag.Message)
+    {
+        <script type="text/javascript">
+                             alert("@ViewBag.Message");
+        </script>
+    }
+}

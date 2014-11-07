@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "UserLayout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class ="row">
+    
+        <nav >
+            <div class="container">
+                <div id="sidebar-wrapper" class="sidebar-toggle">
+                    <ul class="sidebar-nav">
+                        <li>
+                            <a>@Html.ActionLink("My Profile", "UserProfile", "Home")</a>
+                        </li>
+                        <li>
+                            <a>@Html.ActionLink("My Items","UserItems","Home")</a>
+                        </li>
+                        <li>
+                            <a>@Html.ActionLink("Add New Item", "AddItems", "Home")</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+       
+    <div class =" col-lg-offset-2">
+     
+        @RenderBody()
+         
+    </div>
+
+</div>
